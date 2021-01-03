@@ -1,0 +1,48 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+.title {
+  color: #212121;
+}
+
+/* Шапка сайта*/
+
+.logo {
+  color: #000000;
+}
+.logo-web {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #212121;
+}
+.contact-nav .link {
+  color: #757575;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+/* Эффективные решения*/
+.solution {
+  background-color: #2f303a;
+}
+.titl {
+  color: #ffffff;
+}
+/* Наши преимущества */
+.advantage {
+  background-color: #e5e5e5;
+}
+/* черный логотипа #000000 */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* подложка светлая верх #E5E5E5 */
+/* подложка светлая низ #F5F4FA */
+/* подложка темная #2F303A */

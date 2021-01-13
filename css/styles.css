@@ -1,20 +1,20 @@
 body {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   color: #757575;
 }
-ul {
+* {
   list-style: none;
-}
-.title {
-  color: #212121;
+  text-decoration: none;
 }
 
-/* Шапка сайта*/
-
-.logo {
+/* Шапка сайта */
+.sitehead {
+  background-color: #ffffff;
+}
+.sitehead-logo {
   color: #000000;
 }
-.logo-web {
+.web {
   color: #2196f3;
 }
 .site-nav .link {
@@ -27,22 +27,71 @@ ul {
 .link:focus {
   color: #2196f3;
 }
-/* Эффективные решения*/
+/* Эффективные решения */
 .solution {
   background-color: #2f303a;
 }
-.titl {
+.solution-title {
+  color: #ffffff;
+}
+.solution-button {
+  background-color: #2196f3;
   color: #ffffff;
 }
 /* Наши преимущества */
-.advantage {
-  background-color: #e5e5e5;
+.advantages-list-title {
+  color: #212121;
 }
+/* Чем мы занимаемся */
+.activities-list-title {
+  color: #212121;
+}
+/* Наша команда */
+.ourteam {
+  background-color: #f5f4fa;
+}
+.ourteam-title {
+  color: #212121;
+}
+.ourteam-title-member {
+  color: #212121;
+}
+/* Портфолио */
+.ourteam {
+  background-color: #eeeeee;
+}
+.examples-button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.examples-activity {
+  color: #212121;
+}
+
+/* Футер */
+.basement {
+  background-color: #2f303a;
+}
+.basement-logo {
+  color: #ffffff;
+}
+address {
+  font-style: normal;
+}
+.basement-address {
+  color: #ffffff;
+}
+.basement-contact {
+  color: rgba(255, 255, 255, 60%);
+}
+
 /* черный логотипа #000000 */
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* белый #FFFFFF */
 /* акцент #2196F3 */
+/* подложка темная #2F303A */
 /* подложка светлая верх #E5E5E5 */
 /* подложка светлая низ #F5F4FA */
-/* подложка темная #2F303A */
+/* нижний адреса rgba(255,255,255,60%) */
+/* подложка портфолио #EEEEEE */

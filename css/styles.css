@@ -122,6 +122,7 @@ line-height: 1.188;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
+  text-align: center;
 }
 .ourteam-list .title {
   color: var(--sec-textcolor);

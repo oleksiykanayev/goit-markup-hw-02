@@ -52,7 +52,6 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-}
 .site-nav .link.current {
   color: var(--accent-color);
 }

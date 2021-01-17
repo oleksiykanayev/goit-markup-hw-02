@@ -1,6 +1,6 @@
 :root {
   --logo-color: #000000;
-  --white: #FFFFFF;
+  --main-lite-color: #FFFFFF;
   --main-textcolor: #757575;
   --sec-textcolor: #212121;
   --accent-color: #2196f3;
@@ -10,9 +10,11 @@
   --basecont-color: rgba(255,255,255,0,6); 
 }
 body {
-  background-color: var(--white);
+  background-color: var(--main-lite-color);
   color: var(--main-textcolor);
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 * {
@@ -40,7 +42,6 @@ body {
   color: var(--sec-textcolor);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
@@ -48,7 +49,6 @@ body {
   color: var(--main-textcolor);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
@@ -64,7 +64,7 @@ body {
   background-color: var(--back1-color);
 }
 .solution-title {
-  color: var(--white);
+  color: var(--main-lite-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -75,7 +75,7 @@ body {
 }
 .solution-button {
   background-color: var(--accent-color);
-  color: var(--white);
+  color: var(--main-lite-color);
 
   font-family: inherit;
   font-weight: 700;
@@ -88,14 +88,12 @@ body {
   color: var(--sec-textcolor);
   
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.143;
   text-transform: uppercase;
 }
 .advantages-list {
   
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 /* Чем мы занимаемся */
@@ -111,7 +109,6 @@ body {
 .ourteam {
   background-color: var(--back2-color);
 
-font-weight: 400;
 font-size: 16px;
 line-height: 1.188;
 }
@@ -140,13 +137,15 @@ line-height: 1.188;
   font-size: 16px;
   line-height: 1.625;
   }
+.examples-text {
+  color: var(--main-textcolor)
+}
 .examples-button:hover,
 .examples-button:focus {
   background-color: var(--accent-color);
-  color: var(--white);
+  color: var(--main-lite-color);
 }
 .examples-list {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
 }
@@ -164,7 +163,7 @@ line-height: 1.188;
   background-color: var(--back3-color);
 }
 .basement-logo {
-  color: var(--white);
+  color: var(--main-lite-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -174,17 +173,13 @@ address {
   font-style: normal;
 }
 .basement-address {
-  color: var(--white);
+  color: var(--main-lite-color);
 
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 .basement-contact {
   color: var(--basecont-color);
 
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 
